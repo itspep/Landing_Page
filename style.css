@@ -47,20 +47,24 @@ section {
 
 .sideline {
     width: 500px;
+}
 
+.flag {
+    margin-bottom: 23px;
+    margin-left: 23px;
 }
 .blackStar {
     opacity: 0.2;
 }
 .blackStar:hover {
-    opacity: 0.5;
-    margin-right: 0;
-    margin-left: 160px;
+    opacity: 0.8;
+
 }
 
 .list {
     padding: 13px;
     color: yellow;
+    opacity: 1;
 }
 
 .list:hover {
@@ -70,13 +74,16 @@ section {
     opacity: 0.5;
 }
 .link {
-    background: #b3030c;
-    opacity: 0.5;
+    background: green;
+    opacity: 1;
     padding: 12px;
     border-radius: 25px; 
+    border: 1px solid white;
 }
 .link:hover {
-    background: green;
+    background: red;
+    opacity: 0.5;
+    border: none;
 }
 
 .button-link {
@@ -108,12 +115,6 @@ span {
     margin-left: 100px;
 }
 
-.motto {
-    display: flex;
-    margin-bottom: 0;
-    justify-content: space-between;
-
-}
 button {
     font-size: 23px;
     padding: 16px 23px;
@@ -136,12 +137,12 @@ h2 {
 .side-img {
     border: 6px solid red;
     border-radius: 16px;
-    opacity: 0.9;
+    opacity: 1;
     
 }
 
 .side-img:hover {
-    opacity: 1.0;
+    opacity: 0.9;
 
 
 }
@@ -151,11 +152,11 @@ h2 {
 }
 
 .logo {
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .logo:hover {
-    opacity: 1.0;
+    opacity: 0.9;
 }
 
 span {
@@ -184,13 +185,29 @@ blockquote {
 }
 
 .motto {
-    background-color:cornflowerblue;
-    padding: 40px;
-    margin: 100px;
-    border-radius: 16px;
+    display: flex;
+    background-color: rgb(50, 112, 226);
+    justify-content: space-between;
+    justify-content: space-around;
+    border-radius: 23px;
+    margin: 70px;
+    padding: 35px;
 }
 
 .sub-motto {
-    font-size: 19px;
     color: white;
+    font-size: 23px;
+}
+.visit-link {
+    color: white;
+    font-size: 23px;;
+}
+
+footer {
+    color:black;
+    background: #efe7eb;
+    padding: 45px;
+    margin: 0;
+    text-align: center;
+    font-size: 19px;
 }
