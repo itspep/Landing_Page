@@ -1,0 +1,196 @@
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    font-size: 23px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 80px;
+}
+
+header {
+    padding: 50px;
+    background-image: url('images/accra-ghana1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+h1 {
+    font-weight: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    height: 430px;
+}
+
+.sideline {
+    width: 500px;
+
+}
+.blackStar {
+    opacity: 0.2;
+}
+.blackStar:hover {
+    opacity: 0.5;
+    margin-right: 0;
+    margin-left: 160px;
+}
+
+.list {
+    padding: 13px;
+    color: yellow;
+}
+
+.list:hover {
+    background: red;
+    border-radius: 25px;
+    padding: 12px;
+    opacity: 0.5;
+}
+.link {
+    background: #b3030c;
+    opacity: 0.5;
+    padding: 12px;
+    border-radius: 25px; 
+}
+.link:hover {
+    background: green;
+}
+
+.button-link {
+    color: yellow;
+    font-size: 16px;
+    
+}
+
+h4 {
+    flex-wrap: wrap;
+    width: 500px;
+    font-size: medium;
+    color: #e5e7eb;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rectangles {
+    display: flex;
+    
+}
+
+blockquote {
+    text-align: center;
+}
+span {
+    margin-left: 100px;
+}
+
+.motto {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: space-between;
+
+}
+button {
+    font-size: 23px;
+    padding: 16px 23px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 23px;
+    color: white;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937
+}
+
+.side-img {
+    border: 6px solid red;
+    border-radius: 16px;
+    opacity: 0.9;
+    
+}
+
+.side-img:hover {
+    opacity: 1.0;
+
+
+}
+
+.info {
+    text-align: center;
+}
+
+.logo {
+    opacity: 0.9;
+}
+
+.logo:hover {
+    opacity: 1.0;
+}
+
+span {
+    color: black;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.doc {
+    margin-left: 50%;
+    color:black;
+    font-weight:bold;
+    padding: 50px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+blockquote {
+    background-color:#efe7eb;
+    padding: 0;
+    margin: 0;
+
+}
+
+.motto {
+    background-color:cornflowerblue;
+    padding: 40px;
+    margin: 100px;
+    border-radius: 16px;
+}
+
+.sub-motto {
+    font-size: 19px;
+    color: white;
+}
