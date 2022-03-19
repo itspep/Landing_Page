@@ -55,6 +55,7 @@ section {
 }
 .blackStar {
     opacity: 0.2;
+    transition: 2s;
 }
 .blackStar:hover {
     opacity: 0.8;
